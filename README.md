@@ -10,12 +10,11 @@ ai-image-detection-experiment/
 ├── README.md
 ├── requirements.txt
 │
-├── generate_manifest.py
-│
 └── experiment/
     ├── index.html
     ├── experiment.js
     ├── manifest.json
+    ├── generate_manifest.py
     │
     └── images/
         ├── ai/
