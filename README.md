@@ -40,8 +40,8 @@ ai-image-detection-experiment/
 ## Experiment setupe and execution:
 
 ```
+cd experiment
 python generate_manifest.py
-
 python -m http.server 8000
 ```
 

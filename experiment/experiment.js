@@ -227,8 +227,7 @@ jsPsych.randomization.shuffle(
 */
 
 
-selected.forEach(
-(stimulus)=>{
+selected.forEach((stimulus, index) => {
 
 
 let trial = {
@@ -250,11 +249,12 @@ choices:
 
 
 
-prompt:
-`
-<p>
-Czy ten obraz jest wygenerowany przez AI?
-</p>
+prompt: `
+<p><strong>Obraz ${index + 1} z ${selected.length}</strong></p>
+
+<p>Pozostało: ${selected.length - index - 1} obrazów.</p>
+
+<p>Czy ten obraz jest wygenerowany przez AI?</p>
 `,
 
 
