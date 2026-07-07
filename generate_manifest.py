@@ -2,7 +2,7 @@ import os
 import json
 
 
-ROOT = "images"
+ROOT = "experiment/images"
 
 OUTPUT = "manifest.json"
 
